@@ -5,16 +5,11 @@ public class Main {
 		SectorCajas cajas = new SectorCajas();
 		SectorGerente gerentes = new SectorGerente();
 		
-		Empleado cajero2 = new Empleado("Camilo", "Cajero", 3000);	//cambiado
 		Empleado cajero1 = new Empleado("Vicente", "Cajero", 500);
-		Empleado gerente = new Empleado("Rodrigo", "Gerente", 10000); //cambiado
-			
-		Empleado papi = new Empleado("Yadran", "Patrón", 9000); //agregado
-		
+		Empleado cajero2 = new Empleado("Rodrigo", "Cajero", 2000);
+		Empleado gerente = new Empleado("Camilo", "Gerente", 3000);
 		cajas.agrega(cajero1);
 		cajas.agrega(cajero2);
-		
-		gerentes.agrega(papi);
 		gerentes.agrega(gerente);
 		
 		System.out.println(cajas.getSueldo());

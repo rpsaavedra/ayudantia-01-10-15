@@ -9,11 +9,10 @@ public class Main {
 		Empleado cajero1 = new Empleado("Vicente", "Cajero", 500);
 		Empleado gerente = new Empleado("Rodrigo", "Gerente", 10000); //cambiado
 			
-		Empleado papi = new Empleado("Yadran", "Patrón", 9000); //agregado
+		Empleado papi = new Empleado("Yadran", "Patrón", 90000); //agregado
 		
 		cajas.agrega(cajero1);
 		cajas.agrega(cajero2);
-		
 		gerentes.agrega(papi);
 		gerentes.agrega(gerente);
 		
